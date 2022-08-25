@@ -1,12 +1,12 @@
 <h3>freeCodeCamp Responsive Web Design Projects</h1>
 <p>This folder contains <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"> freeCodeCamp</a> Responsive Web Design assignments.
 <ol>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/edit/main/Responsive%20Web%20Design/README.md#cat-photo-app-">
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#cat-photo-app-">
 Cat Photo App</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/edit/main/Responsive%20Web%20Design/README.md#cafe-menu-">Cafe Menu</a> </li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/edit/main/Responsive%20Web%20Design/README.md#colored-markers-"> Colored Markers</a> </li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/edit/main/Responsive%20Web%20Design/README.md#registration-form-">Registration Form</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/edit/main/Responsive%20Web%20Design/README.md#project1-survey-form-">Project(1) - Survey Form</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#cafe-menu-">Cafe Menu</a> </li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#colored-markers-"> Colored Markers</a> </li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#registration-form-">Registration Form</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#project1-survey-form-">Project(1) - Survey Form</a></li>
 </ol>
 
 ## Cat Photo App 😸
