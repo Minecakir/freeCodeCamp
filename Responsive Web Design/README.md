@@ -3,10 +3,10 @@
 <ol>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#cat-photo-app-">
 Cat Photo App</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#cafe-menu-">Cafe Menu</a> </li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#colored-markers-"> Colored Markers</a> </li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#registration-form-">Registration Form</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#project1-survey-form-">Project(1) - Survey Form</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#cafe-menu-">Cafe Menu</a> </li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#colored-markers-"> Colored Markers</a> </li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#registration-form-">Registration Form</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#project1-survey-form-">Project(1) - Survey Form</a></li>
 </ol>
 
 ## Cat Photo App 😸
