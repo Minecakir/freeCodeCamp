@@ -15,6 +15,7 @@ Cat Photo App</a></li>
 In this course, you'll learn the most common HTML tags by building your own cat photo app. 
 If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/step-1">
 the link is here!</a>
+<p>Go To <a href="https://codepen.io/mineca/full/wvmZapL">Website🎈</a></p>
 <p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/%231%20Cat%20Photo%20App">Codes </a></p>
  </p>
  <img src="https://user-images.githubusercontent.com/67970973/186741190-c454f012-d699-434c-b251-500d665da976.png" width="300" />
@@ -28,7 +29,7 @@ the link is here!</a>
 In this course, you'll learn CSS by designing a menu page for a cafe webpage.
 If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/step-1">
 the link is here!</a></p>
-
+<p>Go To <a href="https://codepen.io/mineca/full/zYWQjRX">Website🎈</a></p>
 <p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/%232%20Cafe%20Menu">Codes </a></p>
  </p>
  
@@ -41,6 +42,7 @@ In this course, you'll build a set of colored markers.
 You'll learn different ways to set color values and how to pair colors with each other.
 If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-1">
 the link is here!</a></p>
+<p>Go To <a href="https://codepen.io/mineca/full/rNdgvvP">Website🎈</a></p>
 <p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/%233%20Colored%20Markers">Codes </a></p>
  </p>
  <img src="https://user-images.githubusercontent.com/67970973/186744978-46939af9-51a2-4bf8-bd75-14a79de3bf33.png" width="300" />
@@ -52,6 +54,7 @@ In this course, you'll learn HTML forms by building a signup page.
 You'll learn how to control what types of data people can type into your form, and some new CSS tools for styling your page.
 If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/step-1">
 the link is here!</a></p>
+<p>Go To <a href="https://codepen.io/mineca/full/OJvYZEg">Website🎈</a></p>
 <p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/%234%20Registration%20Form">Codes </a></p>
  </p>
  <img src="https://user-images.githubusercontent.com/67970973/186745611-b4b85eb6-7a18-49c6-a72d-5433fab37238.png" width="300" />
@@ -61,8 +64,8 @@ the link is here!</a></p>
 #### This is one of the required project to earn certification
 <p> If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form">
 the link is here!</a></p>
-<p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/Project%231-Survey%20Form">Codes </a></p>
- </p>
+<p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/Project%231-Survey%20Form">Codes </a></p></p>
+<p>Go To <a href="https://codepen.io/mineca/full/yLKWjEx">Website🎈</a></p>
  <p>This is how my project should look like</p>
  <img src="https://user-images.githubusercontent.com/67970973/186749395-cdbbbba2-9ffb-4bef-a960-025d3ef8fefd.png" width="300" />
  <p>This is what I made 💛</p>
