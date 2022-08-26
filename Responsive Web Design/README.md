@@ -7,9 +7,9 @@ Cat Photo App</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#colored-markers-"> Colored Markers</a> </li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#registration-form-">Registration Form</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#project1-survey-form-">Project(1) - Survey Form</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#rothko-painting-">Rothko Painting</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#photo-gallery-">Photo Gallery</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/README.md#nutrition-label-">Nutrition Label</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#rothko-painting-">Rothko Painting</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#photo-gallery-">Photo Gallery</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#nutrition-label-">Nutrition Label</a></li>
 </ol>
 
 
