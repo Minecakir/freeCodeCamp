@@ -6,12 +6,13 @@ Cat Photo App</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#cafe-menu-">Cafe Menu</a> </li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#colored-markers-"> Colored Markers</a> </li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#registration-form-">Registration Form</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#project1-survey-form-">Project(1) - Survey Form</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#project1-survey-form-">Project(1) Survey Form</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#rothko-painting-">Rothko Painting</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#photo-gallery-">Photo Gallery</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#nutrition-label-">Nutrition Label</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#htmlcss-quiz-">HTML/CSS Quiz</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#tribute-page-">Project(2) Tribute Page</a></li>
 </ol>
-
 
 ## Cat Photo App 😸
 #### Learn HTML a Building Cat Photo App 
@@ -108,3 +109,25 @@ the link is here!</a></p>
 <p>Go To (☞ﾟヮﾟ)☞ <a href="https://minecakir.github.io/freeCodeCamp/Responsive%20Web%20Design/8-Nutrition%20Label/index.html">Website</a></p>
 
  <img src="https://user-images.githubusercontent.com/67970973/186938701-be7d481b-b80e-486c-a4ef-63eb43c9ef9c.png" width="300" />
+ 
+  ## HTML/CSS Quiz 📖
+#### Learn Accesibility by Building a Quiz
+<p> Accessibility is making your webpage easy for all people to use – even people with disabilities.
+In this course, you'll build a quiz webpage. You'll learn accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.
+If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz/step-1">
+the link is here!</a></p>
+<p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/9-%20HTML-CSS%20Quiz">Codes </a></p></p>
+<p>Go To (☞ﾟヮﾟ)☞ <a href="https://minecakir.github.io/freeCodeCamp/Responsive%20Web%20Design/9-%20HTML-CSS%20Quiz/index.html">Website</a></p>
+
+ <img src="https://user-images.githubusercontent.com/67970973/187026762-a80b8f74-5bbc-4e8e-853b-ea27449a2b10.png" width="300" />
+ 
+   ## Tribute Page 🥼
+#### This is one of the required project to earn certification
+<p> If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page">
+the link is here!</a></p>
+<p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/10-Tribute%20Page">Codes </a></p></p>
+<p>Go To (☞ﾟヮﾟ)☞ <a href="https://minecakir.github.io/freeCodeCamp/Responsive%20Web%20Design/10-Tribute%20Page/index.html">Website</a></p>
+
+ <img src="https://user-images.githubusercontent.com/67970973/187027924-667515d4-a65a-4bf7-ba9b-5152fb3a3855.png" width="300" />
+ 
+ </br></br><p align="center">Made By ❤</p>
