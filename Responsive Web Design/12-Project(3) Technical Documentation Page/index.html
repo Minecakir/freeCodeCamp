@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <title id="title">Technical Documentation</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <ul>
+      <header> Documentation</header>
+      <li><a class="nav-link" href="#Introduction"> Introduction</a></li>
+      <li><a class="nav-link" href="#Why_Should_I_Learn_Patterns?">Why Should I Learn Patterns?</a></li>
+      <li><a class="nav-link" href="#Classification_of_Patterns">Classification of Patterns</a></li>
+      <li><a class="nav-link" href="#Patterns_Catalog">Patterns Catalog</a></li>
+      <li><a class="nav-link" href="#Factory_Method">Factory Method</a></li>
+      <li><a class="nav-link" href="#Singleton_Design_Pattern">Singleton Design Pattern</a></li>
+      <li><a class="nav-link" href="#Observer_Design_Pattern">Observer Design Pattern</a></li>
+      <li><a class="nav-link" href="#Visitor_Design_Pattern">Visitor Design Pattern</a></li>
+      <li><a class="nav-link" href="#Strategy_Design_Pattern">Strategy Design Pattern</a></li>
+      <li><a class="nav-link" href="#Reference">Reference</a></li>
+    </ul>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article>
+        <p>
+          Design patterns are typical solutions to commonly occurring problems in software design. They are like
+          pre-made blueprints that you can customize to solve a recurring design problem in your code.
+        </p>
+        <p>
+          You can’t just find a pattern and copy it into your program, the way you can with off-the-shelf functions
+          or libraries. The pattern is not a specific piece of code, but a general concept for solving a particular
+          problem. You can follow the pattern details and implement a solution that suits the realities of your own
+          program.
+        </p>
+        <p>Patterns are often confused with algorithms, because both concepts describe typical solutions to some known
+          problems. While an algorithm always defines a clear set of actions that can achieve some goal, a pattern is
+          a more high-level description of a solution. The code of the same pattern applied to two different programs
+          may be different.
+        </p>
+      </article>
+    </section>
+
+    <section class="main-section" id="Why_Should_I_Learn_Patterns?">
+      <header>Why Should I Learn Patterns?</header>
+      <article>
+        <p>
+          The truth is that you might manage to work as a programmer for many years without knowing about a single pattern. A lot of people 
+          do just that. Even in that case, though, you might be implementing some patterns without even knowing it. So why would you spend 
+          time learning them?
+        </p>
+        <p>
+          <li>Design patterns are a toolkit of <strong>tried and tested</strong> solutions to common problems in software design. Even if you 
+          never encounter these problems, knowing patterns is still useful because it teaches you how to solve all sorts of problems using 
+          principles of object-oriented design.</li>
+        </p>
+      </article>
+    </section>
+
+    <section class="main-section" id="Classification_of_Patterns">
+      <header>Classification of Patterns</header>
+      <article>
+        <p>
+          Design patterns differ by their complexity, level of detail and scale of applicability to the entire system being designed. I like 
+          the analogy to road construction: you can make an intersection safer by either installing some traffic lights or building an entire 
+          multi-level interchange with underground passages for pedestrians.
+        </p>
+        <p>
+          The most basic and low-level patterns are often called idioms. They usually apply only to a single programming language.
+        </p>
+        <p>
+          The most universal and high-level patterns are architectural patterns. Developers can implement these patterns in virtually any 
+          language. Unlike other patterns, they can be used to design the architecture of an entire application.
+        </p>
+        <p>
+          In addition, all patterns can be categorized by their intent, or purpose. This book covers three main groups of patterns:
+        </p>
+        <li>
+          Creational patterns provide object creation mechanisms that increase flexibility and reuse of existing code.
+        </li>
+        <li>
+          Structural patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and 
+          efficient.
+        </li>
+        <li>
+          Behavioral patterns take care of effective communication and the assignment of responsibilities between objects.
+        </li>
+      </article>
+
+      <section class="main-section" id="Patterns_Catalog">
+        <header>Patterns Catalog</header>
+        <!-- Patterns -->
+        <div class="patterns">
+          <!-- Factory -->
+          <div class="column">
+            <div class="card">
+              <a class="pattern-card factory" href="#Factory_Method">
+                <span class="pattern-image">
+                  <img alt="Factory Method" 
+                  src="https://cdn-icons-png.flaticon.com/512/3256/3256216.png"/>
+                </span>
+                <span class="pattern-name">Factory Method</span>
+              </a>
+            </div>
+          </div>
+          <!-- Singleton -->
+          <div class="column">
+            <div class="card">
+              <a class="pattern-card singleton" href="#Singleton_Design_Pattern">
+                <span class="pattern-image">
+                  <img alt="Singleton"src="https://cdn-icons-png.flaticon.com/512/4360/4360180.png"/>
+                </span>
+                <span class="pattern-name">Singleton</span>
+              </a>
+            </div>
+          </div>
+          <!-- Observer -->
+          <div class="column">
+            <div class="card">
+              <a class="pattern-card observer"
+                href="#Observer_Design_Pattern">
+                <span class="pattern-image">
+                  <img alt="Observer" src="https://cdn-icons-png.flaticon.com/512/8196/8196351.png"/>
+                </span>
+                <span class="pattern-name">Observer</span>
+              </a>
+            </div>
+          </div>
+          <!-- Strategy -->
+          <div class="column">
+            <div class="card">
+              <a class="pattern-card strategy" href="#Strategy_Design_Pattern">
+                <span class="pattern-image">
+                    <img alt="Strategy" src="https://cdn-icons-png.flaticon.com/512/3281/3281294.png"/></span>
+                <span class="pattern-name">Strategy</span>
+              </a>
+            </div>
+          </div>
+          <!-- Visitor -->
+          <div class="column">
+            <div class="card">
+              <a class="pattern-card strategy" href="#Visitor_Design_Pattern">
+                <span class="pattern-image">
+                    <img alt="Visitor" src="https://cdn-icons-png.flaticon.com/512/3759/3759974.png"/>
+                </span>
+                <span class="pattern-name">Visitor</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main-section" id="Factory_Method">
+        <header>Factory Method</header>
+          <article>
+            <p>
+              <strong>Factory Method</strong> is a creational design pattern that provides an interface for creating objects in a superclass,   
+              but allows subclasses to alter the type of objects that will be created.
+            </p>
+            <img src="https://refactoring.guru/images/patterns/content/factory-method/factory-method-en-2x.png"></img>
+
+            <p><strong>PROBLEM</strong></p>
+            <p>
+              Imagine that you’re creating a logistics management application. The first version of your app can only handle transportation by
+              trucks, so the bulk of your code lives inside the Truck class.
+            </p>
+            <p>
+              After a while, your app becomes pretty popular. Each day you receive dozens of requests from sea transportation companies to
+              incorporate sea logistics into the app.
+            </p>
+          </p>
+          <img src="https://refactoring.guru/images/patterns/diagrams/factory-method/problem1-en-2x.png"></img>
+          <p>
+            Great news, right? But how about the code? At present, most of your code is coupled to the Truck class. Adding Ships into the app
+            would require making changes to the entire codebase. Moreover, if later you decide to add another type of transportation to the app,
+            you will probably need to make all of these changes again. As a result, you will end up with pretty nasty code, riddled with 
+            conditionals that switch the app’s behavior depending on the class of transportation objects.
+          </p>
+          <p><strong>SOLUTION</strong><br>
+            The Factory Method pattern suggests that you replace direct object construction calls (using the
+            <span class="code-part">new</span> operator) with calls to a special factory method. Don’t worry: the objects are still created via 
+            the <span class="code-part">new </span> operator, but it’s being called from within the factory method. Objects returned by a 
+            factory method are often referred to as products.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/diagrams/factory-method/solution1-2x.png"></img>
+          <p>
+            There’s a slight limitation though: subclasses may return different types of products only if these products have a common base 
+            class or interface. Also, the factory method in the base class should have its return type declared as this interface.
+          </p><img src="https://refactoring.guru/images/patterns/diagrams/factory-method/solution2-en-2x.png"></img>
+          <p><strong>PSEUDOCODE</strong><br></p>
+          <p>
+            This example illustrates how the Factory Method can be used for creating cross-platform UI elements without coupling the client    
+            code to concrete UI classes.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/diagrams/factory-method/example-2x.png?id=a2470830778e318263155000dbdc5870"></img>
+          <p>
+            The base Dialog class uses different UI elements to render its window. Under various operating systems, these elements may look a
+            little bit different, but they should still behave consistently. A button in Windows is still a button in Linux. When the factory 
+            method comes into play, you don’t need to rewrite the logic of the Dialog class for each operating system. If we declare a factory 
+            method that produces buttons inside the base Dialog class, we can later create a subclass that returns Windows-styled buttons from 
+            the factory method. The subclass then inherits most of the code from the base class, but, thanks to the factory method, can render 
+            Windows-looking buttons on the screen.
+          </p>
+          <p>
+            For this pattern to work, the base Dialog class must work with abstract buttons: a base class or an interface that all concrete 
+            buttons follow. This way the code within Dialog remains functional, whichever type of buttons it works with.
+          </p>
+          <code>
+            <span class="code-comment">
+              // The creator class declares the factory method that must
+              // return an object of a product class. The creator's subclasses
+              // usually provide the implementation of this method.
+            </span>
+              class Dialog is
+              <span class="code-comment">
+                // The creator may also provide some default implementation
+                // of the factory method.
+              </span>
+                abstract method createButton():Button
+                          method render() is
+                              Button okButton = createButton()
+                              okButton.onClick(closeDialog)
+                              okButton.render()
+
+                      class WindowsDialog extends Dialog is
+                          method createButton():Button is
+                              return new WindowsButton()
+
+                      class WebDialog extends Dialog is
+                          method createButton():Button is
+                              return new HTMLButton()
+
+                      interface Button is
+                          method render()
+                          method onClick(f)
+
+                      class WindowsButton implements Button is
+                          method render(a, b) is
+                          <span class="code-comment">
+                              // Render a button in Windows style.
+                          </span>
+                          method onClick(f) is
+                          <span class="code-comment">
+                              // Bind a native OS click event.
+                          </span>
+
+                      class HTMLButton implements Button is
+                          method render(a, b) is
+                          <span class="code-comment">
+                              // Return an HTML representation of a button.
+                          </span>
+                          method onClick(f) is
+                          <span class="code-comment">
+                              // Bind a web browser click event.
+                          </span>
+                      class Application is
+                          field dialog: Dialog
+
+                          method initialize() is
+                              config = readApplicationConfigFile()
+
+                              if (config.OS == "Windows") then
+                                  dialog = new WindowsDialog()
+                              else if (config.OS == "Web") then
+                                  dialog = new WebDialog()
+                              else
+                                  throw new Exception("Error! Unknown operating system.")
+                          method main() is
+                              this.initialize()
+                              dialog.render()
+            </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Singleton_Design_Pattern">
+        <header>Singleton Design Pattern</header>
+        <article>
+          <p><strong>Singleton</strong> is a creational design pattern that lets you ensure that a class has only one instance, while 
+            providing a global access point to this instance.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/content/singleton/singleton-2x.png"></img>
+          <p><strong>PROBLEM</strong></p>
+          <p>
+            The Singleton pattern solves two problems at the same time, violating the Single Responsibility Principle:
+          </p>
+          <p>
+          <ol>
+            <li>
+              Ensure that a class has just a single instance. Why would anyone want to control how many instances a class has? The most 
+              common reason for this is to control access to some shared resource—for example, a database or a file.
+            </li>
+            <p>
+              Here’s how it works: imagine that you created an object, but after a while decided to create a new one. Instead of receiving a 
+              fresh object, you’ll get the one you already created. Note that this behavior is impossible to implement with a regular 
+              constructor since a constructor call must always return a new object by design.
+            </p>
+            <img src="https://refactoring.guru/images/patterns/content/singleton/singleton-comic-1-en-2x.png"></img>
+            <li>Provide a global access point to that instance. Remember those global variables that you (all right, me) used to store some 
+                essential objects? While they’re very handy, they’re also very unsafe since any code can potentially overwrite the contents 
+                of those variables and crash the app.
+            </li>
+            <p>
+              Just like a global variable, the Singleton pattern lets you access some object from anywhere in the program. However, it also p
+              rotects that instance from being overwritten by other code. There’s another side to this problem: you don’t want the code that 
+              solves problem #1 to be scattered all over your program. It’s much better to have it within one class, especially if the rest 
+              of your code already depends on it.
+            </p>
+            <p>
+              Nowadays, the Singleton pattern has become so popular that people may call something a singleton even if it solves just one of 
+              the listed problems.
+            </p>
+          </ol>
+          </p>
+          <p><strong>SOLUTION</strong></p>
+          <p>All implementations of the Singleton have these two steps in common:</p>
+          <li>
+            Make the default constructor private, to prevent other objects from using the <span class="code-part">new</span> operator with 
+            the Singleton class.
+          </li>
+          <li>Create a static creation method that acts as a constructor. Under the hood, this method calls the private constructor to create 
+            an object and saves it in a static field. All following calls to this method return the cached object.
+          </li>
+          <p>
+            If your code has access to the Singleton class, then it’s able to call the Singleton’s static method. So whenever that method is 
+            called, the same object is always returned.
+          </p>
+          <p><strong>PSEUDOCODE</strong></p>
+          <p>
+            In this example, the database connection class acts as a <strong>Singleton</strong>. This class doesn’t have a public constructor,
+            so the only way to get its object is to call the
+            <span class="code-part">getInstance</span> method. This method caches the first created object and returns it in all subsequent 
+            calls.
+          </p>
+          <code>
+            class Database is
+              private static field instance: Database
+
+            private constructor Database() is
+            <span class="code-comment">
+              // Some initialization code, such as the actual
+              // connection to a database server.
+              // ...
+            </span>
+
+            public static method getInstance() is
+              if (Database.instance == null) then
+            acquireThreadLock() and then
+            <span class="code-comment">
+                // Ensure that the instance hasn't yet been
+                // initialized by another thread while this one
+                // has been waiting for the lock's release.
+            </span>
+                if (Database.instance == null) then
+                    Database.instance = new Database()
+            return Database.instance
+
+    
+           public method query(sql) is
+           <span class="code-comment">
+                // For instance, all database queries of an app go
+                // through this method. Therefore, you can place
+                // throttling or caching logic here.
+                // ...
+          </span>
+
+          class Application is
+              method main() is
+                  Database foo = Database.getInstance()
+                  foo.query("SELECT ...")
+                  <span class="code-comment">
+                  // ...
+                  </span>
+                  Database bar = Database.getInstance()
+                  bar.query("SELECT ...")
+                  <span class="code-comment">
+                  // The variable `bar` will contain the same object as
+                  // the variable `foo`.
+                  </span>
+          </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Observer_Design_Pattern">
+        <header>Observer Design Pattern</header>
+        <article>
+          <p>
+            Observer is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events 
+            that happen to the object they’re observing.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/content/observer/observer-2x.png"></img><br>
+          <p><strong>PROBLEM</strong></p>
+          <p>
+            Imagine that you have two types of objects: a Customer and a Store. The customer is very interested in a particular brand of 
+            product (say, it’s a new model of the iPhone) which should become available in the store very soon.
+          </p>
+          <p>
+            The customer could visit the store every day and check product availability. But while the product is still en route, most of 
+            these trips would be pointless.
+          </p>
+          <p>
+            On the other hand, the store could send tons of emails (which might be considered spam) to all customers each time a new product 
+            becomes available. This would save some customers from endless trips to the store. At the same time, it’d upset other customers 
+            who aren’t interested in new products.
+          </p>
+          <p>
+            It looks like we’ve got a conflict. Either the customer wastes time checking product availability or the store wastes resources 
+            notifying the wrong customers.
+          </p>
+          <p><strong>SOLUTION</strong></p>
+          <p>
+            The object that has some interesting state is often called subject, but since it’s also going to notify other objects about the 
+            changes to its state, we’ll call it publisher. All other objects that want to track changes to the publisher’s state are called 
+            subscribers.
+          </p>
+          <p>The Observer pattern suggests that you add a subscription mechanism to the publisher class so individual objects can subscribe 
+            to or unsubscribe from a stream of events coming from that publisher. Fear not! Everything isn’t as complicated as it sounds. In, 
+            reality, this mechanism consists of 1) an array field for storing a list of references to subscriber objects and 2) several 
+            public ,methods which allow adding subscribers to and removing them from that list.
+          </p>
+          <p>Now, whenever an important event happens to the publisher, it goes over its subscribers and calls the specific notification 
+            method on their objects.
+          </p>
+          <p>Real apps might have dozens of different subscriber classes that are interested in tracking events of the same publisher class. 
+            You wouldn’t want to couple the publisher to all of those classes. Besides, you might not even know about some of them beforehand 
+            if your publisher class is supposed to be used by other people.
+          </p>
+          <p>
+            That’s why it’s crucial that all subscribers implement the same interface and that the publisher communicates with them only via 
+            that interface. This interface should declare the notification method along with a set of parameters that the publisher can use 
+            to pass some contextual data along with the notification.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/diagrams/observer/solution2-en-2x.png"></img>
+          <p><strong>PSEUDOCODE</strong><br>
+          <p>
+            In this example, the Observer pattern lets the text editor object notify other service objects about changes in its state.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/diagrams/observer/example-2x.png"></img>
+          <p>
+            The list of subscribers is compiled dynamically: objects can start or stop listening to notifications at runtime, depending on 
+            the desired behavior of your app.
+          </p>
+          <p>In this implementation, the editor class doesn’t maintain the subscription list by itself. It delegates this job to the special 
+            centralized event dispatcher, letting any object act as a publisher.
+          </p>
+          <p>Adding new subscribers to the program doesn’t require changes to existing publisher classes, as long as they work with all 
+            subscribers through the same interface.
+          </p>
+
+          <code>class EventManager is
+              private field listeners: hash map of event types and listeners
+
+              method subscribe(eventType, listener) is
+                  listeners.add(eventType, listener)
+
+              method unsubscribe(eventType, listener) is
+                  listeners.remove(eventType, listener)
+
+              method notify(eventType, data) is
+                  foreach (listener in listeners.of(eventType)) do
+                      listener.update(data)
+           <span class="code-comment">
+                    // The concrete publisher contains real business logic that's
+                    // interesting for some subscribers. We could derive this class
+                    // from the base publisher, but that isn't always possible in
+                    // real life because the concrete publisher might already be a
+                    // subclass. In this case, you can patch the subscription logic
+                    // in with composition, as we did here.
+            </span>
+            class Editor is
+                public field events: EventManager
+                private field file: File
+
+                constructor Editor() is
+                    events = new EventManager()
+
+            <span class="code-comment">
+              // Methods of business logic can notify subscribers about
+              // changes.
+            </span>
+            method openFile(path) is
+                this.file = new File(path)
+                events.notify("open", file.name)
+
+            method saveFile() is
+                file.write()
+                events.notify("save", file.name)
+
+            <span class="code-comment">
+              // Here's the subscriber interface. If your programming language
+              // supports functional types, you can replace the whole
+              // subscriber hierarchy with a set of functions.
+            </span>
+            interface EventListener is
+                method update(filename)
+            <span class="code-comment">
+              // Concrete subscribers react to updates issued by the publisher
+              // they are attached to.
+            </span>
+            class LoggingListener implements EventListener is
+                private field log: File
+                private field message: string
+
+                constructor LoggingListener(log_filename, message) is
+                    this.log = new File(log_filename)
+                    this.message = message
+
+                method update(filename) is
+                    log.write(replace('%s',filename,message))
+
+            class EmailAlertsListener implements EventListener is
+                private field email: string
+                private field message: string
+
+                constructor EmailAlertsListener(email, message) is
+                    this.email = email
+                    this.message = message
+
+                method update(filename) is
+                    system.email(email, replace('%s',filename,message))
+
+                <span class="code-comment">
+                  // An application can configure publishers and subscribers at
+                  // runtime.
+                </span>
+                class Application is
+                    method config() is
+                        editor = new Editor()
+
+                        logger = new LoggingListener(
+                            "/path/to/log.txt",
+                            "Someone has opened the file: %s")
+                        editor.events.subscribe("open", logger)
+
+                        emailAlerts = new EmailAlertsListener(
+                            "admin@example.com",
+                            "Someone has changed the file: %s")
+                        editor.events.subscribe("save", emailAlerts)
+          </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Visitor_Design_Pattern">
+        <header>Visitor Design Pattern</header>
+        <article>
+          <p>
+            Visitor is a behavioral design pattern that lets you separate algorithms from the objects on which they operate.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/content/visitor/visitor-2x.png"></img>
+          <p><strong>PROBLEM</strong></p>
+          <p>
+            Imagine that your team develops an app which works with geographic information structured as one colossal graph. Each node of the 
+            graph may represent a complex entity such as a city, but also more granular things like industries,sightseeing areas, etc. The 
+            nodes are connected with others if there’s a road between the real objects that they represent. Under the hood, each node type is 
+            represented by its own class, while each specific node is an object.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/diagrams/visitor/problem1-2x.png"></img>
+          <p>
+            At some point, you got a task to implement exporting the graph into XML format. At first, the job seemed pretty straightforward.
+            You planned to add an export method to each node class and then leverage recursion to go over each node of the graph, executing
+            the export method. The solution was simple and elegant: thanks to polymorphism, you weren’t coupling the code which called the ,
+            export method to concrete classes of nodes.
+          </p>
+          <p>
+            Unfortunately, the system architect refused to allow you to alter existing node classes. He said that the code was already in
+            production and he didn’t want to risk breaking it because of a potential bug in your changes.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/diagrams/visitor/problem2-en-2x.png"></img>
+          <p>
+            Besides, he questioned whether it makes sense to have the XML export code within the node classes. The primary job of these
+            classes was to work with geodata. The XML export behavior would look alien there.
+          </p>
+          <p>
+            There was another reason for the refusal. It was highly likely that after this feature was implemented, someone from the 
+            marketing weird stuff. This would , force you to change those precious and fragile classes again.
+          </p>
+          <p><strong>SOLUTION</strong></p>
+          <p>
+            The Visitor pattern suggests that you place the new behavior into a separate class called visitor, instead of trying to integrate 
+            it into existing classes. The original object that had to perform the behavior is now passed to one of the visitor’s methods as 
+            an argument, providing the method access to all necessary data contained within the object.
+          </p>
+          <p>
+            Now, what if that behavior can be executed over objects of different classes? For example, in our case with XML export, the actual
+            implementation will probably be a little bit different across various node classes. Thus, the visitor class may define not one,
+            but a set of methods, each of which could take arguments of different types, like this:
+          </p>
+          <code>
+              class ExportVisitor implements Visitor is
+                method doForCity(City c) { ... }
+                method doForIndustry(Industry f) { ... }
+                method doForSightSeeing(SightSeeing ss) { ... }
+                <span class="code-comment">// ...</span>
+           </code>
+          <p>
+            But how exactly would we call these methods, especially when dealing with the whole graph? These methods have different 
+            signatures, so we can’t use polymorphism. To pick a proper visitor method that’s able to process a given object, we’d need to 
+            check its class. Doesn’t this sound like a nightmare?
+          </p>
+          <code>
+            foreach (Node node in graph)
+              if (node instanceof City)
+                  exportVisitor.doForCity((City) node)
+              if (node instanceof Industry)
+                  exportVisitor.doForIndustry((Industry) node)
+              <span class="code-comment">// ...</span>
+         </code>
+          <p>
+            You might ask, why don’t we use method overloading? That’s when you give all methods the same name, even if they support different
+            sets of parameters. Unfortunately, even assuming that our programming language supports it at all (as Javaand C# do), it won’t  
+            method to execute. It’ll default to the method that takes an object of the base
+            <span class="code-part">Node</span> class.
+          </p>
+          <p>
+            However, the Visitor pattern addresses this problem. It uses a technique called<strong>Double Dispatch</strong>, which helps to
+            execute the proper method on an object without cumbersome conditionals. Instead of letting the client select a proper version of 
+            the method to call, how about we delegate this choice to objects we’re passing to the visitor as an argument? Since the objects 
+            know their own classes, they’ll be able to pick a proper method on the visitor less awkwardly. They “accept” a visitor and tell 
+            it what visiting method should be executed.
+          </p>
+          <code>
+          <span class="code-comment">
+            // Client code
+          </span>
+          foreach (Node node in graph)
+              node.accept(exportVisitor)
+          <span class="code-comment">
+              // City
+          </span>
+          class City is
+              method accept(Visitor v) is
+                  v.doForCity(this)
+          <span class="code-comment">
+                  // ...
+                  // Industry
+          </span>
+          class Industry is
+              method accept(Visitor v) is
+                  v.doForIndustry(this)
+          <span class="code-comment">
+              // ...
+          </span>
+        </code>
+        </article>
+      </section>
+
+      <section class="main-section" id="Strategy_Design_Pattern">
+        <header>Strategy Design Pattern</header>
+          <article>
+            <p>
+              Strategy is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, 
+              and make their objects interchangeable.
+            </p>
+            <img src="https://refactoring.guru/images/patterns/content/strategy/strategy-2x.png"></img>
+            <p><strong>PROBLEM</strong></p>
+            <p>
+              One day you decided to create a navigation app for casual travelers. The app was centered around a beautiful map which helped 
+              users quickly orient themselves in any city.
+            </p>
+            <p>
+              One of the most requested features for the app was automatic route planning. A user should be able to enter an address and see 
+              the fastest route to that destination displayed on the map.
+            </p>
+            <p>
+              The first version of the app could only build the routes over roads. People who traveled by car were bursting with joy. But 
+              apparently, not everybody likes to drive on their vacation. So with the next update, you added an option to build walking 
+              routes. Right after that, you added another option to let people use public transport in their routes.
+            </p>
+            <p>
+              However, that was only the beginning. Later you planned to add route building for cyclists. And even later, another option for 
+              building routes through all of a city’s tourist attractions.
+           </p>
+           <img src="https://refactoring.guru/images/patterns/diagrams/strategy/problem-2x.png"></img>
+           <p>
+             While from a business perspective the app was a success, the technical part caused you many headaches. Each time you added a new 
+             routing algorithm, the main class of the navigator doubled in size. At some point, the beast became too hard to maintain. Any 
+             change to one of the algorithms, whether it was a simple bug fix or a slight adjustment of the street score, affected the whole 
+             class, increasing the chance of creating an error in already-working code. In addition, teamwork became inefficient. Your 
+             teammates, who had been hired right after the successful release, complain that they spend too much time resolving merge 
+             conflicts. Implementing a new feature requires you to change the same huge class, conflicting with the code produced by other 
+             people.
+          </p>
+          <p><strong>SOLUTION</strong></p>
+          <p>
+            The Strategy pattern suggests that you take a class that does something specific in a lot of different ways and extract all of these algorithms into separate classes called strategies.
+          </p>
+          <p>
+            The original class, called context, must have a field for storing a reference to one of the strategies. The context delegates the 
+            work to a linked strategy object instead of executing it on its own.
+          </p>
+          <p>
+            The context isn’t responsible for selecting an appropriate algorithm for the job. Instead, the client passes the desired strategy 
+            to the context. In fact, the context doesn’t know much about strategies. It works with all strategies through the same generic 
+            interface, which only exposes a single method for triggering the algorithm encapsulated within the selected strategy.
+          </p>
+          <p>
+            This way the context becomes independent of concrete strategies, so you can add new algorithms or modify existing ones without 
+            changing the code of the context or other strategies.
+          </p>
+          <img src="https://refactoring.guru/images/patterns/diagrams/strategy/solution-2x.png"></img>
+          <p>
+            In our navigation app, each routing algorithm can be extracted to its own class with a single<span class="code-part"> 
+            buildRoute</span> method. The method accepts an origin and destination and returns a collection of the route’s checkpoints.
+          </p>
+          <p>
+            Even though given the same arguments, each routing class might build a different route, the main navigator class doesn’t really 
+            care which algorithm is selected since its primary job is to render a set of checkpoints on the map. The class has a method for 
+            switching the active routing strategy, so its clients, such as the buttons in the user interface, can replace the currently 
+            selected routing behavior with another one.
+          </p>
+          </article>
+      </section>
+
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://refactoring.guru/design-patterns"
+                target="_blank"
+                >Refactoring Guru</a
+              >
+            </li>
+        </article>
+      </section>
+  </main>
+</body>
+</html>
