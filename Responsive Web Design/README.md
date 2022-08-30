@@ -12,6 +12,8 @@ Cat Photo App</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#nutrition-label-">Nutrition Label</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#htmlcss-quiz-">HTML/CSS Quiz</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#tribute-page-">Project(2) Tribute Page</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#picasso-painting-">Picasso Painting</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#project3-technical-documentation-page-">Project(3) Technical Documentation Page</a></li>
 </ol>
 
 ## Cat Photo App 😸
@@ -86,8 +88,7 @@ the link is here!</a></p>
  <p>This is how my project should look like</p>
  <img src="https://user-images.githubusercontent.com/67970973/186749395-cdbbbba2-9ffb-4bef-a960-025d3ef8fefd.png" width="300" />
  <p>This is what I made 💛</p>
- <img src="https://user-images.githubusercontent.com/67970973/186750180-57d6e6b6-dbdb-4a42-87cd-c9543aed5a65.png" width="300" />
- <img src="https://user-images.githubusercontent.com/67970973/186750338-c2f597f1-082c-4961-b633-4ceb53693edc.png" width="300" />
+ <https://user-images.githubusercontent.com/67970973/187462601-02181654-6e07-4e2c-9320-e2ddfd0dd341.png" width="300" />
  
  <p align="right">
   <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#freecodecamp-responsive-web-design-projects">Back Main Page</a></p>
@@ -148,14 +149,36 @@ the link is here!</a></p>
  <p align="right">
   <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#freecodecamp-responsive-web-design-projects">Back Main Page</a></p>
  
-   ## Tribute Page 🥼
+   ## Tribute Page 🧧
 #### This is one of the required project to earn certification
 <p> If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page">
 the link is here!</a></p>
 <p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/10-Tribute%20Page">Codes </a></p></p>
 <p>Go To (☞ﾟヮﾟ)☞ <a href="https://minecakir.github.io/freeCodeCamp/Responsive%20Web%20Design/10-Tribute%20Page/index.html">Website</a></p>
 
- <img src="https://user-images.githubusercontent.com/67970973/187027924-667515d4-a65a-4bf7-ba9b-5152fb3a3855.png" width="300" />
+ <img src="https://user-images.githubusercontent.com/67970973/187462183-71546b72-a6fa-4915-9c5f-0a8570aee9b5.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/67970973/187462199-8d061695-4955-4dfc-9749-acbc56b94312.png" width="300" />
+ 
+   ## Picasso Painting 🖼🎨
+#### Learn Intermmediate CSS by Building a Picasso Painting
+<p> In this course, you'll learn how to use some intermediate CSS techniques by coding your own Picasso painting webpage. You'll learn about SVG icons, CSS positioning, and review other CSS skills you've learned.
+If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-intermediate-css-by-building-a-picasso-painting/step-1"> the link is here!</a></p>
+
+<p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/11-Picasso%20Painting">Codes </a></p></p>
+<p>Go To (☞ﾟヮﾟ)☞ <a href="https://minecakir.github.io/freeCodeCamp/Responsive%20Web%20Design/11-Picasso%20Painting/index.html">Website</a></p>
+
+ <img src="https://user-images.githubusercontent.com/67970973/187463057-6b7211bb-38af-4224-95bc-79b8b622be8f.png" width="300" />
+ 
+  ## Technical Documentation Page 📚
+#### This is one of the required project to earn certification
+<p> If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page"> the link is here!</a></p>
+<p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/12-Project(3)%20Technical%20Documentation%20Page">Codes </a></p></p>
+<p>Go To (☞ﾟヮﾟ)☞ <a href="https://minecakir.github.io/freeCodeCamp/Responsive%20Web%20Design/12-Project(3)%20Technical%20Documentation%20Page/index.html#Introduction">Website</a></p>
+
+ <img src="https://user-images.githubusercontent.com/67970973/187468389-fd231008-8196-4436-b976-a4ae25780c35.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/67970973/187468407-737a644d-ed8f-43a9-b6ae-600a2522ba09.png" width="300" />
+   <img src="https://user-images.githubusercontent.com/67970973/187468416-c3961d06-06cb-4602-b443-8d36ebef68b3.png" width="300" />
+ 
  
  <p align="right">
   <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#freecodecamp-responsive-web-design-projects">Back Main Page</a></p>
