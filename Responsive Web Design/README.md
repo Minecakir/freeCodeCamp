@@ -13,7 +13,7 @@ Cat Photo App</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#htmlcss-quiz-">HTML/CSS Quiz</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#tribute-page-">Project(2) Tribute Page</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#picasso-painting-">Picasso Painting</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#project3-technical-documentation-page-">Project(3) Technical Documentation Page</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#technical-documentation-page-">Project(3) Technical Documentation Page</a></li>
 </ol>
 
 ## Cat Photo App 😸
