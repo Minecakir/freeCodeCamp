@@ -14,6 +14,7 @@ Cat Photo App</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#tribute-page-">Project(2) Tribute Page</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#picasso-painting-">Picasso Painting</a></li>
 <li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#technical-documentation-page-">Project(3) Technical Documentation Page</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#magazine-page-">Magazine Page</a></li>
 </ol>
 
 ## Cat Photo App 😸
@@ -88,7 +89,7 @@ the link is here!</a></p>
  <p>This is how my project should look like</p>
  <img src="https://user-images.githubusercontent.com/67970973/186749395-cdbbbba2-9ffb-4bef-a960-025d3ef8fefd.png" width="300" />
  <p>This is what I made 💛</p>
- <https://user-images.githubusercontent.com/67970973/187462601-02181654-6e07-4e2c-9320-e2ddfd0dd341.png" width="300" />
+ <img src="https://user-images.githubusercontent.com/67970973/188682407-07451017-1e68-4287-9c53-cdeed0cc0e17.png" width="300" />
  
  <p align="right">
   <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#freecodecamp-responsive-web-design-projects">Back Main Page</a></p>
@@ -168,6 +169,9 @@ If you want solve this challange <a href="https://www.freecodecamp.org/learn/202
 <p>Go To (☞ﾟヮﾟ)☞ <a href="https://minecakir.github.io/freeCodeCamp/Responsive%20Web%20Design/11-Picasso%20Painting/index.html">Website</a></p>
 
  <img src="https://user-images.githubusercontent.com/67970973/187463057-6b7211bb-38af-4224-95bc-79b8b622be8f.png" width="300" />
+
+ <p align="right">
+  <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#freecodecamp-responsive-web-design-projects">Back Main Page</a></p>
  
   ## Technical Documentation Page 📚
 #### This is one of the required project to earn certification
@@ -179,8 +183,39 @@ If you want solve this challange <a href="https://www.freecodecamp.org/learn/202
   <img src="https://user-images.githubusercontent.com/67970973/187468407-737a644d-ed8f-43a9-b6ae-600a2522ba09.png" width="300" />
    <img src="https://user-images.githubusercontent.com/67970973/187468416-c3961d06-06cb-4602-b443-8d36ebef68b3.png" width="300" />
  
+ <p align="right">
+  <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#freecodecamp-responsive-web-design-projects">Back Main Page</a></p>
+  
+  ## Magazine Page 📰
+#### Learn CSS Grid by Building a Magazine
+<p> CSS Grid gives you control over the rows and columns of your webpage design.
+In this course, you'll build a magazine article. You'll learn how to use CSS Grid, including concepts like grid rows and grid columns. 
+If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-grid-by-building-a-magazine/step-1"> the link is here!</a></p>
+<p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/13-Magazine%20Page">Codes </a></p></p>
+<p>Go To (☞ﾟヮﾟ)☞ <a href="https://minecakir.github.io/freeCodeCamp/Responsive%20Web%20Design/13-Magazine%20Page/index.html#Introduction">Website</a></p>
+
+ <img src="https://user-images.githubusercontent.com/67970973/188684029-9904b2d5-5320-46f1-90da-66598357d259.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/67970973/188684037-507229cb-a026-4959-94dd-e1afd9afe2c0.png" width="300" />
+   <img src="https://user-images.githubusercontent.com/67970973/188684041-d41ba3da-1f45-4374-854d-1284d616f73f.png" width="300" />
  
  <p align="right">
   <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#freecodecamp-responsive-web-design-projects">Back Main Page</a></p>
+
+  ## Product Landing Page 📌
+#### This is one of the required project to earn certification
+<p> If you want solve this challange <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page"> the link is here!</a></p>
+<p> My project <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/14-Project(4)%20Product%20Landing%20Page">Codes </a></p></p>
+<p>Go To (☞ﾟヮﾟ)☞ <a href="https://minecakir.github.io/freeCodeCamp/Responsive%20Web%20Design/14-Project(4)%20Product%20Landing%20Page/index.html#Introduction">Website</a></p>
+
+ <img src="https://user-images.githubusercontent.com/67970973/188706769-882c815d-7ca7-454a-bac5-2b7de0b07ad4.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/67970973/188706779-c9763971-7431-4f37-ba8e-552d7bd354fb.png" width="300" />
+   <img src="https://user-images.githubusercontent.com/67970973/188706788-c9a3b3d3-4ede-4246-9108-c2f4f487e67e.png" width="300" />
+   <img src="https://user-images.githubusercontent.com/67970973/188706798-18ca3cc3-55ba-43bd-b6b6-9a6d4b980162.png" width="300" />
+ 
+ <p align="right">
+  <a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#freecodecamp-responsive-web-design-projects">Back Main Page</a></p>
+  
+  
+  
  
  </br></br><p align="center">Made By ❤</p>
