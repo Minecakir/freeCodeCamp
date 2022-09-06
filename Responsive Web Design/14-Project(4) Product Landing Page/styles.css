@@ -1,0 +1,241 @@
+.top {
+  position: fixed;
+  width: 100%;
+}
+
+#nav-bar{
+  position:fixed;
+}
+
+.top .nav-link {
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+  position: right;
+  color: white;
+}
+
+.top {
+  background-color: #113635;
+  top: 0;
+  padding: 15px;
+  opacity: 0.9;
+  font-family: Courier New, Monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-link {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+
+.nav-link:hover {
+  color: #fb5607;
+  text-decoration: underline;
+}
+
+#about {
+  position: center;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container>div {
+  flex-basis: 50%;
+}
+
+
+.container {
+  align-items: center;
+  display: flex;
+  padding: 100px;
+}
+
+h1 {
+  color: #fb5607;
+}
+
+.desc-about {
+  background-color: #637081;
+  color: white;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+  .img-col img {
+    height: 300px;
+    padding: 10px;
+  }
+}
+
+.img-col img {
+  height: 300px;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .img-col img {
+    height: 200px;
+    padding: 20px;
+    border-radius: 50px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .desc-text {
+    padding: 100px;
+  }
+}
+
+/* Style inputs */
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 10px;
+
+}
+
+input[type=submit] {
+  background-color: #fb5607;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+label {
+  color: white;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 80%;
+  margin-top: 2px;
+  padding: 40px;
+
+}
+
+.row {
+  background-color: #113635;
+  border-radius: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column,
+  input[type=submit] {
+    width: 50%;
+    margin-top: 20;
+  }
+}
+
+
+
+.responsive {
+  padding: 2px 6px;
+  float: left;
+  width: 20%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.shipping-desc {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  padding-top: 100px;
+}
+
+.shipping-desc:hover {
+  color: #fb5607;
+}
+
+.desc-about:hover {
+  background-color: #fb6f92;
+}
+
+
+.desc-text {
+  padding: 30px;
+  font-size: 18px;
+  flex: 50%;
+}
+
+.about-container {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.video {
+  padding-top: 80px;
+}
+
+.video iframe {
+  height: 200px;
+  width: 400px;
+}
+
+@media screen and (min-width: 800px) {
+  .video iframe {
+    height: 300px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .video iframe {
+    height: 150px;
+    width: 250px;
+  }
+}
