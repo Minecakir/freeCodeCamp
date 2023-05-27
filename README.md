@@ -1,20 +1,20 @@
 <h3>freeCodeCamp Responsive Web Design Projects</h1>
 <p>This folder contains <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/"> freeCodeCamp</a> Responsive Web Design assignments.
 <ol>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#cat-photo-app-">
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#cat-photo-app-">
 Cat Photo App</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#cafe-menu-">Cafe Menu</a> </li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#colored-markers-"> Colored Markers</a> </li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#registration-form-">Registration Form</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#project1-survey-form-">Project(1) Survey Form</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#rothko-painting-">Rothko Painting</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#photo-gallery-">Photo Gallery</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#nutrition-label-">Nutrition Label</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design#htmlcss-quiz-">HTML/CSS Quiz</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#tribute-page-">Project(2) Tribute Page</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#picasso-painting-">Picasso Painting</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#technical-documentation-page-">Project(3) Technical Documentation Page</a></li>
-<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main/Responsive%20Web%20Design/#magazine-page-">Magazine Page</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#cafe-menu-">Cafe Menu</a> </li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#colored-markers-"> Colored Markers</a> </li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#registration-form-">Registration Form</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#project1-survey-form-">Project(1) Survey Form</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#rothko-painting-">Rothko Painting</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#photo-gallery-">Photo Gallery</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#nutrition-label-">Nutrition Label</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#htmlcss-quiz-">HTML/CSS Quiz</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#tribute-page-">Project(2) Tribute Page</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#picasso-painting-">Picasso Painting</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#technical-documentation-page-">Project(3) Technical Documentation Page</a></li>
+<li><a href="https://github.com/Minecakir/freeCodeCamp/tree/main#magazine-page-">Magazine Page</a></li>
 </ol>
 
 ## Cat Photo App 😸
